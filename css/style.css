@@ -1526,6 +1526,7 @@ RESPONSIVE SITE HEADER
 @media only screen and (max-width: 1360px) {
   .second-section__wrapper {
     margin-top: 140px;
+
   }
 
   .wrapper-left__img {
@@ -1845,6 +1846,7 @@ RESPONSIVE SITE HEADER
     width: 304px;
     height: 229px;
     margin-left: 0px;
+    margin-top: 80px;
   }
 
   .wrapper-right__title {
