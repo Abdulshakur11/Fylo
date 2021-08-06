@@ -2282,7 +2282,7 @@ RESPONSIVE SITE HEADER
 
   .sign-form-wrapper {
     transform: translateY(-165px);
-    width: 700px;
+    width: 400px;
   }
 
   .sign__title {
@@ -2295,7 +2295,7 @@ RESPONSIVE SITE HEADER
   }
 
   .sign__text {
-    width: 590px;
+    width: 370px;
     font-size: 14px;
     line-height: 21px;
     margin-top: 16px;
@@ -2304,19 +2304,22 @@ RESPONSIVE SITE HEADER
   }
 
   .sign__input {
-    width: 380px;
+    width: 370px;
     font-size: 12px;
     line-height: 16px;
     padding: 17px 29px;
-    margin: 32px 27px 39px 75px;
+    margin: 32px 14px 39px 14px;
     border-radius: 24px;
   }
 
   .sign__button {
+    width: 370px;
     font-size: 14px;
     line-height: 16px;
     padding: 15px 27px;
     border-radius: 24px;
+    margin-left: 14px;
+    margin-right: 14px;
   }
 }
 
@@ -2455,7 +2458,7 @@ RESPONSIVE SITE HEADER
 
 
   .footer__wrapper {
-    width: 1024px;
+   width: 0;
   }
 
   .place-box {
@@ -2554,6 +2557,7 @@ RESPONSIVE SITE HEADER
   .site-header__logo:nth-child(2) {
     margin-top: -84px;
     margin-left: 45px;
+    width: 200px;
   }
 
   .footer__wrapper {
@@ -2564,6 +2568,7 @@ RESPONSIVE SITE HEADER
   .place-box {
     margin-top: 32px;
     margin-left: 86px;
+    width: 350px;
   }
 
   .place__icon::before {
@@ -2583,6 +2588,8 @@ RESPONSIVE SITE HEADER
     margin-top: 15px;
     margin-left: 85px;
     margin-bottom: 34px;
+    width: 350px;
+    margin-right: 0;
   }
 
   .contact__link {
@@ -2593,6 +2600,7 @@ RESPONSIVE SITE HEADER
   .footer__list-wrapper {
     display: flex;
     margin-left: 87px;
+    width: 350px;
   }
 
   .footer-list {
@@ -2611,9 +2619,10 @@ RESPONSIVE SITE HEADER
   }
 
   .footer-media-box {
+    width: 200px;
     margin-top: 80px;
     margin-left: 87px;
-    margin-bottom: 77px;
+    margin-bottom: 0px;
     padding-bottom: 50px;
   }
 }
@@ -2693,17 +2702,20 @@ RESPONSIVE SITE HEADER
   }
 
   .place-box {
+    width: 0px;
     margin-top: 32px;
     margin-left: 86px;
+    width: 250px;
   }
 
   .place__text {
-    width: 250px;
+    width: 208px;
     font-size: 12px;
     line-height: 19px;
   }
 
   .contact-box {
+    width: 180px;
     margin-top: 16px;
     margin-left: 85px;
     margin-bottom: 34px;
@@ -2719,6 +2731,7 @@ RESPONSIVE SITE HEADER
   .footer__list-wrapper {
     display: block;
     margin-left: 87px;
+    width: 220px;
   }
 
   .footer-list {
@@ -2739,7 +2752,7 @@ RESPONSIVE SITE HEADER
   .footer-media-box {
     padding-bottom: 100px;
     margin-left: 150px;
-    margin-bottom: 77px;
+    margin-bottom: 0px;
   }
 
 } 
@@ -2747,17 +2760,20 @@ RESPONSIVE SITE HEADER
 @media only screen and (max-width: 321px) {
   .site-header__logo:nth-child(2) {
     margin-top: -84px;
-    margin-left: 45px;
+    margin-left: 5px;
+    width: 200px;
   }
 
   .footer__wrapper {
     display: block;
-    margin-left: -37px;
+    margin-left: -82px;
+    width: 0px;
   }
 
   .place-box {
     margin-top: 32px;
     margin-left: 86px;
+    width: 270px;
   }
 
   .place__text {
@@ -2792,8 +2808,9 @@ RESPONSIVE SITE HEADER
   }
 
   .footer-media-box {
+    width: 130px;
     padding-bottom: 100px;
-    margin-left: 150px;
-    margin-bottom: 77px;
+    margin-left: 168px;
+    margin-bottom: 0px;
   }
 }
